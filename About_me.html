@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>About me</title>
+        <link rel="icon"  href="edu.jpeg">
+    </head>
+
+    <body>
+        <header>
+            <h2>About Me</h2>
+        </header>
+        <main>
+            <section>
+                <h2>Hi,</h2> 
+                <h3>my name is Kashika Kundu</h3>
+                <img src="My_Photo.JPEG" alt="my image" width="300" height="400">
+                <p>I am a first year Dalhousie Student, with Computer Science as my major. I have had great interest in coding since my high school.</p>
+                <p>I am an aspiring data analyst. Data analytics is my passion and I love to explore, analyze, and communicate data in various ways. I created this website to showcase my skills and projects in data analytics, as well as to share my insights and learnings from this exciting field.</p>
+            </section>
+        </main>
+        <h2>My hobbies are :</h2>
+        <ol>
+            <li>Listening to Music</li>
+            <img src="Music.jpeg" alt="Music" width="200" height="100">
+            <!-- https://images.macrumors.com/t/sqodWOqvWOvq6cU8t2ahMlU4AJM=/1600x0/article-new/2018/05/apple-music-note.jpg-->
+            <p>I find that music serves as a powerful tool for calming my mind and body. Its harmonious melodies and soothing rhythms have a way of easing my stress and promoting relaxation. Immersing myself in music allows me to escape from the chaos of the world and find inner peace, as it stimulates positive emotions and helps me unwind after a long day.</p>
+            <p>My favourite song:</p>
+            <audio controls>
+                <source src="Ed Sheeran - Perfect.mp3">
+                <!--https://www.youtube.com/watch?v=cNGjD0VG4R8-->
+            </audio>
+            <li>Playing Basketball </li>
+            <img src = "Basketball.jpeg" alt="Baketball" width="200" height="100">
+            <!--https://www.ncaa.org/images/2023/3/30/MBB-WBB_BallHoop.JPG-->
+            <p>Playing basketball is my go-to activity for stress relief. The fast-paced nature of the game demands my full attention, diverting my mind from worries and helping me enter a state of flow. Engaging in this physical activity not only energizes my body but also fosters a sense of camaraderie and teamwork, leaving me feeling refreshed and rejuvenated after each game.</p>
+            <li>Reading Books</li>
+            <img src = "Books.avif" alt="Book" width="200" height="200">
+            <!--https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip-->
+            <p>Reading books is a cherished pastime that brings me immense pleasure. The act of getting lost in a captivating story or exploring new ideas transports me to different worlds and perspectives, offering a temporary escape from reality. As I delve into the pages of a book, I feel a sense of tranquility and contentment wash over me, making reading an essential part of my self-care routine.</p>
+        </ol>
+        
+        <div class="form-container">
+            <form id="sign-up-form" action="#">
+                <h2>A Little Bit About Yourself</h2>
+                <div class="input-container">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" />
+                </div>
+                <div class="input-container">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" />
+                </div>
+                <div class="input-container">
+                    <label for="banner">Banner Number #B00 (Just enter the numbers):</label>
+                    <input type="number" id="banner" name="banner" />
+                </div>
+                <div class="input-container">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" />
+                </div>
+                <div class="input-container">
+                    <label for="hobbies">Hobbies:</label>
+                    <input type="text" id="hobbies" name="hobbies" />
+                </div>
+                <div class="input-container">
+                    <label for="future">What do you want to become when you grow older:</label>
+                    <input type="text" id="future" name="future" />
+                </div>
+                <div class="input-container">
+                    <label for="about">Introduce yourself a little bit:</label>
+                    <textarea id="about" name="about"></textarea>
+                </div>
+                
+                <div class="button-container">
+                    <input id="submit-button" type="submit" value="Submit" />
+                </div>
+                <div id="message-panel"></div><br>
+            </form>
+        </div>
+    
+        <div class="grid-area-container">
+            <div class="header">A Short Summary About This Page : </div>
+            <div class="sidebar">
+                <h2>About Me</h2>
+                <p>Hi, my name is Kashika Kundu. I am a first year Dalhousie Student, with Computer Science as my major. I have had great interest in coding since my high school.</p>
+                <p>I am an aspiring data analyst.I created this website to showcase my skills and projects in data analytics, as well as to share my insights and learnings from this exciting field.</p>
+            </div>
+            <div class="content">
+                <h2>My Interests</h2>
+                <ul>
+                    <li>Listening to Music</li>
+                    <li>Playing Basketball</li>
+                    <li>Reading Books</li>
+                </ul>
+            </div>
+        </div>
+        <p>Back to <a class="link-css" href="#">Top</a></p> 
+
+        <script src="./script.js"></script>
+    </body>
+</html>
